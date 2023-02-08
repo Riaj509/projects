@@ -1,0 +1,10 @@
+ ol li{
+    color: goldenrod;
+    
+}
+ul li{
+    color: magenta;
+    text-align:justify;
+    background-color: black;
+    display: inline;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pitha form</title>
+    <style>
+        label{
+            display:block;
+            margin-bottom: 3px;
+            padding:2px;
+
+        }
+    </style>
+</head>
+<body>
+    
+    <h2>Welcome to my pitha ghor</h2>
+    <form >
+        <label for="name" >Name :<input  id="name"type="text" placeholder="Name"></label>
+        <label for="email">Email :<input id="email"type="email"placeholder="www.google@gmail.com"></label>
+        <label for="mobile">Number :<input type="number" id="mobile" placeholder="Mobile Number"></label>
+       <fieldset>
+        <legend>Pick One  pitha</legend>
+        <label for="chitoy">
+            <input type="radio" name="pitha" id="chitoy">Chitoy 
+        </label>
+        <label for="vapa">
+            <input type="radio" name="pitha" id="vapa">Vapa 
+        </label>
+        <label for="patisapta">
+            <input type="radio" name="pitha" id="patisapta">Patisapta 
+        </label>
+        <label for="pit-pitha">
+            <input type="radio" name="pitha" id="pit-pitha">Pit-pitha 
+        </label>
+       </fieldset>
+       <fieldset> 
+        <legend>Select one or more Voltas</legend>
+        <label for="shutki">
+        <input type="checkbox" id="shutki" name="vorta">Shutki Vorta
+        </label>
+        <label for="bagun">
+        <input type="checkbox" id="bagun" name="vorta">Bagun Vorta
+        </label>
+        <label for="shim">
+        <input type="checkbox" id="shim" name="vorta">Shim Vorta
+        </label>
+       </fieldset>
+
+       <fieldset>
+        <legend>Special Instruction</legend>
+        <textarea name="instruction" id="instruct" cols="10" rows="4" aria-setsize="10"></textarea>
+       </fieldset>
+       <input type="reset" value="Reset">
+       <input type="submit" value="submit">
+    </form>
+</body>
+</html>
