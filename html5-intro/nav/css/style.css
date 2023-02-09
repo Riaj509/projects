@@ -1,0 +1,38 @@
+
+/* nav ul{ */
+    /* display: flex; sob ul gula ak line a  chole asbe.  */
+/* } */
+
+nav > ul{
+    display: flex; /*immidiate ul gula khali flex(akline a chole asbe) korbe. baki gula na   */
+}
+nav  li{
+   list-style: none;/* list er style takbe na*/
+   margin-right:10px; 
+   padding: 0 5px;
+}
+nav li:hover{
+    background-color:lightgrey;/* mouse nia gele red color hobe*/
+   
+}
+nav li a{
+    text-decoration: none;/* anchor er under line remove korar jonno*/
+    color:black;
+}
+
+
+/* Nested Menu */
+
+nav li .dropdown{
+    display:none; /*nav er vator li er modde kono dropdown class takle tr property gula hide hoya jabe */
+    position: absolute; /* position absolute kore dila hover korar por aspasher property gula nore na*/
+    background-color: lightyellow; 
+    padding-left: 5px;
+     
+}
+/*nav er vator li er modde kono dropdown class takle tr property gula k hover kora jabe (hover means mouse er cursor nila response korbe */
+ nav li:hover > .dropdown{
+    display: block;
+ }
+
+
